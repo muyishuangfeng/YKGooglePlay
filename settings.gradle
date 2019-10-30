@@ -1,0 +1,2 @@
+include ':YKSDKGooglePlay'
+rootProject.name='YKGoogeplay'
