@@ -14,16 +14,13 @@ import com.silence.sdk.ykgoogleplay.util.IabHelper;
 import com.silence.sdk.ykgoogleplay.util.IabResult;
 import com.silence.sdk.ykgoogleplay.util.Inventory;
 import com.silence.sdk.ykgoogleplay.util.Purchase;
-import com.silence.sdk.yknet.manager.LoginRealizeManager;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 class GooglePlayHelper {
 
-    private static final String TAG = GooglePlayHelper.class.getSimpleName();
     private static IabHelper mHelper;
     private static boolean mSetupDone = false;
     //订单号
